@@ -1,0 +1,11 @@
+# Telegram Bot Configuration Example
+# Copy this file to "config.py" in the same directory and fill in your actual values.
+
+# Your Telegram Bot Token (required)
+# Obtain this token from BotFather on Telegram
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+
+# Default duration for polls in minutes (optional)
+# If a poll is created without specifying a duration, this value will be used.
+# Set to 0 or None for polls to run indefinitely by default (unless a duration is specified in the /startpoll command).
+DEFAULT_POLL_DURATION_MINUTES = 5
